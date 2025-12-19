@@ -37,13 +37,13 @@ body {
 .xixi:hover {
     background: linear-gradient(135deg, var(--color2), var(--color1));
     font-size: 35px;
-    transition: background-size 1s ease;
+    transition: font-size 1s ease;
 }
 
 .xuxu:hover {
     background: linear-gradient(135deg, var(--color2), var(--color1));
     font-size: 35px;
-    transition: background-size 1s ease;
+    transition: font-size 1s ease;
 }
 
 .xixi {
@@ -93,5 +93,6 @@ body {
         grid-template-rows: auto;
 
     }
+
 
 
