@@ -1,0 +1,92 @@
+:root{
+--color1: rgb(31, 25, 98);
+--color2: rgb(182, 167, 255);
+--color3: rgb(224, 178, 241);
+}
+
+h1 {
+    color: var(--color1);
+    outline-width: thick;
+    outline-color: var(--color2);
+    border-radius: 35px;
+    text-align: center;
+    font-size: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: var(--color2);
+}
+
+body {
+    background-color: var(--color1);
+    color: var(--color3);
+    font-size: 20px;
+}  
+
+.listes {
+    color: var(--color3);
+    outline-width: thick;
+    outline-color: rgb(208, 180, 114);
+    
+}
+
+.xoxo {
+    text-decoration: none;
+    color: var(--color3);
+}
+
+.xixi:hover {
+    background: linear-gradient(135deg, var(--color2), var(--color1));
+    font-size: 35px;
+}
+
+.xuxu:hover {
+    background: linear-gradient(135deg, var(--color2), var(--color1));
+    font-size: 35px;
+}
+
+.xixi {
+    background-color: var(--color2);
+    color: var(--color1);
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.xaxa {
+    color: var(--color2);
+}
+
+.xuxu {
+    text-decoration: none;
+    color: var(--color1);
+    background-color: var(--color2);
+    border-radius: 10px;
+    font-size: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.container-example {
+        padding: 10px;
+        border-radius: 10px;
+        background-color:var(--color2);
+        }
+
+    .case {
+        background-color: var(--color3);
+        color: var(--color1);
+        padding: 15px;
+        border-radius: 5px;
+        text-align: center;
+        font-size: 1.2em;
+    }
+
+
+    .container-example {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+        grid-template-rows: auto;
+    }

@@ -1,0 +1,36 @@
+:root{
+--color1: rgb(24, 20, 97);
+--color2: rgb(135, 186, 224);
+--color3: rgb(178, 241, 236);
+}
+h1{
+    color: var(--color1);
+    outline-width: thick;
+    outline-color: var(--color2);
+    border-radius: 35px;
+    text-align: center;
+    font-size: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: var(--color2);
+}
+
+body {
+    background-color: var(--color1);
+    color: var(--color3);
+    font-size: 20px;
+} 
+
+.proj:hover {
+    background: linear-gradient(135deg, var(--color2), var(--color1));
+    font-size: 25px;
+}
+
+.proj {
+    text-decoration: none;
+    color: var(--color1);
+    background-color: var(--color2);
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
